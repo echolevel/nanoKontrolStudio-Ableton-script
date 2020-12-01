@@ -21,9 +21,9 @@ The remote script is pretty straightforward and should be easily tweakable.
 **Scene 1** sets up:
 * Stop, Play, Record and Cycle (Loop toggle) buttons as you'd expect, and since Live uses a double-press of Stop to return the playhead to the start, I'm using the full-rewind button for Tap Tempo instead.
 * Track < and > buttons to cycle through Ableton Live's tracks/groups, highlighting the currently selected track
-* << button for Metronome On/Off
-* >> button for Arrangement Overdub On/Off
-* ~~Marker navigation, so Set adds or deletes a Locator while Marker < and Marker > navigate between locators~~ Whoops, actually I'm using simple MIDI mapping in Ableton Live for this. In Arrangement View, at the top of the channel list to the right, you should see 'Set' '<-' and '->' buttons. Simply map these to the relevant Marker buttons on the nKS and save the set as your default template set. By default these buttons are CC55, CC56 and CC57 on the nKS.
+* `<<` button for Metronome On/Off
+* `>>` button for Arrangement Overdub On/Off
+* ~~Marker navigation, so Set adds or deletes a Locator while Marker < and Marker > navigate between locators~~ Whoops, actually I'm using simple MIDI mapping in Ableton Live for this. In Arrangement View, at the top of the channel list to the right, you should see 'Set' `<-` and `->` buttons. Simply map these to the relevant Marker buttons on the nKS and save the set as your default template set. By default these buttons are CC55, CC56 and CC57 on the nKS.
 * The first channel strip on the nKS is _always_ the current track, which is selected via the Track < and > buttons. This means you can treat channel 1 a bit like a Faderport, and make rapid adjustments (albeit one at a time) to different tracks without having to move your hand or look over at the control surface. Might not suit you, but it suits me!
 * The last channel fader is _always_ the master track, with the fader controlling Master volume and the knob controlling Cue/Preview level (typically metronome click volume independently of monitor output)
 
