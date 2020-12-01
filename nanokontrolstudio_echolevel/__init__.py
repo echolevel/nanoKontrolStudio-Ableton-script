@@ -1,0 +1,4 @@
+from nanokontrolstudio_echolevel import nanokontrolstudio_echolevel
+
+def create_instance(c_instance):
+	return nanokontrolstudio_echolevel(c_instance)
