@@ -23,7 +23,7 @@ The remote script is pretty straightforward and should be easily tweakable.
 * Track < and > buttons to cycle through Ableton Live's tracks/groups, highlighting the currently selected track
 * << button for Metronome On/Off
 * >> button for Arrangement Overdub On/Off
-* Marker navigation, so Set adds or deletes a Locator and <| and |> navigate between locators
+* Marker navigation, so Set adds or deletes a Locator while Marker < and Marker > navigate between locators
 * The first channel strip on the nKS is _always_ the current track, which is selected via the Track < and > buttons. This means you can treat channel 1 a bit like a Faderport, and make rapid adjustments (albeit one at a time) to different tracks without having to move your hand or look over at the control surface. Might not suit you, but it suits me!
 * The last channel fader is _always_ the master track, with the fader controlling Master volume and the knob controlling Cue/Preview level (typically metronome click volume independently of monitor output)
 
