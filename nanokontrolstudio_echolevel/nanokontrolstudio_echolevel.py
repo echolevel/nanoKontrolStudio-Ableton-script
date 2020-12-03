@@ -29,6 +29,7 @@ class nanokontrolstudio_echolevel(ControlSurface):
 		transport.set_loop_button(ButtonElement(1, MIDI_CC_TYPE, 0, 54))
 		transport.set_play_button(ButtonElement(1, MIDI_CC_TYPE, 0, 80))
 		transport.set_stop_button(ButtonElement(1, MIDI_CC_TYPE, 0, 63))
+		transport.set_tap_tempo_button(ButtonElement(1, MIDI_CC_TYPE, 0, 62))
 		# Seek/scrub controls: (is_momentary, MIDI_CC_TYPE, channel, CCnum). For this to work, nanoKontrol Studio's jog wheel should be set to: Inc/Dec 2, Acceleration 2.
 		transport.set_seek_forward_button(ButtonElement(0, MIDI_CC_TYPE, 0, 83))
 		transport.set_seek_backward_button(ButtonElement(0, MIDI_CC_TYPE, 0, 85))
