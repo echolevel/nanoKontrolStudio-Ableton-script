@@ -43,3 +43,7 @@ Install the Korg Kontrol Editor from Korg's site and follow their instructions f
 Then copy the nanokontrolstudio_echolevel directory to "C:\ProgramData\Ableton\Live[whatever version]\Resources\MIDI Remote Scripts" on Windows 10, or even better, [follow Ableton's own instructions (Win and Mac)](https://help.ableton.com/hc/en-us/articles/209072009-Installing-third-party-remote-scripts) to install it to your User Library, independent of Live version and hopefully a bit more update-proof. Note: this is tested on Live 10 and the Live 11 Beta.
 
 The above link also shows you how to select the script under Control Surface in Preferences, and you'll also need to set nanoKontrol Studio as the Input and Output. Enable it for Track and Remote in the main MIDI I/O section too, so you can easily create simple MIDI mappings yourself.
+
+## Problems?
+
+As of December 2020, Ableton Live 11 is in public beta and at least one script-breaking change has been introduced. I've updated this repo today (21st Dec) to fix that and will try to keep on top of this in the future. If the script stops working in 11 but still works in 10 or lower, make sure you're up to date with this repo, then close down Live, then **delete the `_pycache_` subdirectory from the script directory**, and _then_ start Live. It should recompile the script fresh and, hopefully, work as normal.
